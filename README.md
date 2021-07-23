@@ -16,7 +16,7 @@ This is an online recipe app developed using flutter and firebase for a ease of 
 
 
 
-More screenshots are available in the screenshots folder in the repo.
+
 
 
 ## Features
