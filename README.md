@@ -7,10 +7,10 @@ This is an online recipe app developed using flutter and firebase for a ease of 
  
  
 <div>
-    <img src="/screenshots/img1.jpeg" width="250px" height="600px"</img>
-    <img src="/screenshots/img2.jpeg" width="300px" height="500px"</img>
-    <img src="/screenshots/img3.jpeg" width="300px" height="500px"</img>
-    <img src="/screenshots/img4.jpeg" width="300px" height="500px"</img>
+    <img src="/screenshots/img1.jpeg" width="300px" height="600px"</img>
+    <img src="/screenshots/img2.jpeg" width="300px" height="600px"</img>
+    <img src="/screenshots/img3.jpeg" width="300px" height="600px"</img>
+    <img src="/screenshots/img4.jpeg" width="300px" height="600px"</img>
 </div>
 
 
