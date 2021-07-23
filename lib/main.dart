@@ -15,6 +15,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int op=10;
   Map<String, bool> filters = {
     'gluten': false,
     'lactose': false,
@@ -30,16 +31,16 @@ class _MyAppState extends State<MyApp> {
       filters = filterData;
 
       availableMeals = DUMMY_MEALS.where((meal) {
-        if (filters['gluten']==true && !meal.isGlutenFree) {
+        if (filters['gluten'] == true && !meal.isGlutenFree) {
           return false;
         }
-        if (filters['lactose']==true && !meal.isLactoseFree) {
+        if (filters['lactose'] == true && !meal.isLactoseFree) {
           return false;
         }
-        if (filters['vegan']==true && !meal.isVegan) {
+        if (filters['vegan'] == true && !meal.isVegan) {
           return false;
         }
-        if (filters['vegetarian']==true && !meal.isVegetarian) {
+        if (filters['vegetarian'] == true && !meal.isVegetarian) {
           return false;
         }
         return true;
@@ -98,7 +99,7 @@ class _MyAppState extends State<MyApp> {
         CategoryMealsScreen.routeName: (ctx) =>
             CategoryMealsScreen(availableMeals),
         MealsDetailScreen.routeName: (ctx) =>
-            MealsDetailScreen(_toggleFavorites,_isFavorites),
+            MealsDetailScreen(_toggleFavorites, _isFavorites),
         FliterScreen.routeName: (ctx) => FliterScreen(filters, _setFilters),
       },
       onUnknownRoute: (settings) {
