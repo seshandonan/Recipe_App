@@ -1,6 +1,6 @@
 # Recipe_APP
 
-This is an online recipe app developed using flutter and firebase for a ease of cooking.This app was developed for one of my client's grocery stores.The main aim of making this project open source is because this project will cover all the basics of flutter.
+This is an online recipe app developed using flutter for a ease of cooking.This app was developed for one of my client's grocery stores.The main aim of making this project open source is because this project will cover all the basics of flutter.
 
 ## App Screenshots
 
